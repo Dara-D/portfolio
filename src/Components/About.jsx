@@ -1,4 +1,5 @@
 import React from "react";
+import women from './women.svg'
 import {
   MDBCarousel,
   MDBCarouselCaption,
@@ -14,12 +15,13 @@ const About = () => {
   return (
     <div className="aboutComp">
       <MDBContainer>
-        Me working?
-        <h1>
-          {" "}
-          My name is dara , and i am cool and i know hoe to{" "}
-          <MDBBadge color="primary">New</MDBBadge> program this app
-        </h1>
+      <img src={women} className="App-startBtn" alt="Start" />
+        <h4 className='bioText'>
+        
+        Syrian Interion designer, Web developer, and an Entrepreneur.<br/>
+        keen to enhance her skills along with any opportunity and always tries to offer her modest experiences in exchange of more.
+          
+        </h4>
       </MDBContainer>
     </div>
   );

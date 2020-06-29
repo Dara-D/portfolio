@@ -43,6 +43,8 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  z-index: -1;
+
 }
 
 .aboutComp {
@@ -54,6 +56,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  z-index: -1;
 }
 
 .App-header {
@@ -72,4 +75,12 @@
   text-decoration: none;
 }
 
+.card-img-top{
+  border-radius: 50px;
+}
 
+.bioText{
+  padding-left: 16rem;
+  padding-right: 16rem;
+
+}
