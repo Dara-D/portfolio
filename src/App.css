@@ -7,25 +7,8 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.navComp {
-  text-decoration: none;
-  background-color: #282c34;
-  min-height: 10vh;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  font-size: calc(5px + 2vmin);
-  color: #f87373;
-}
-
 .PortfolioComp {
-  background-color: #282c34;
+  background-color: #1d1f24;
   min-height: 90vh;
   display: flex;
   flex-direction: column;
@@ -35,7 +18,7 @@
   color: white;
 }
 .ContactComp {
-  background-color: #282c34;
+  background-color: #1d1f24;
   min-height: 90vh;
   display: flex;
   flex-direction: column;
@@ -44,11 +27,10 @@
   font-size: calc(10px + 2vmin);
   color: white;
   z-index: -1;
-
 }
 
 .aboutComp {
-  background-color: #282c34;
+  background-color: #1d1f24;
   min-height: 90vh;
   display: flex;
   flex-direction: column;
@@ -58,9 +40,19 @@
   color: white;
   z-index: -1;
 }
-
+.BioComp{
+  background-color: #1d1f24;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  z-index: -1;
+}
 .App-header {
-  background-color: #282c34;
+  background-color: #1d1f24;
   min-height: 90vh;
   display: flex;
   flex-direction: column;
@@ -71,16 +63,37 @@
 }
 
 .bio-link {
-  color: #f87373;
+  color: white;
   text-decoration: none;
+  font-size: 1.5rem;
 }
 
-.card-img-top{
+.card-img-top {
   border-radius: 50px;
 }
 
-.bioText{
+.bioText {
   padding-left: 16rem;
   padding-right: 16rem;
+}
+.PHome {
+  font-size: 2rem;
+}
+.typedHome {
+  color: #f87373;
+}
 
+.Navitem {
+  padding-left: 120px;
+  padding-right: 120px;
+  font-weight: bold;
+  font-size: 1rem;
+  text-decoration: none;
+  color: #f87373;
+}
+
+.Nav {
+  background-color: #1d1f24;
+  padding-top: 25px;
+  padding-bottom: 30px;
 }

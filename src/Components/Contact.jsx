@@ -23,18 +23,15 @@ const Contact = () => {
         width="100px"
       ></img>
 
-      <h5 className="pink-text">Contributor</h5>
+      {/* <h5 className="pink-text">Contributor</h5> */}
 
-      <p>
-        <strong>Dara Aldandashi</strong>
-      </p>
+      {/* <p>
+        Dara Aldandashi
+      </p> */}
 
-      <p className="font-weight-bold blue-text">Fron-End Web Developer</p>
+      {/* <p className="font-weight-bold blue-text">Find me here</p> */}
 
-      <MDBCardText>
-        Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium
-        doloremque laudantium, totam rem aperiam.{" "}
-      </MDBCardText>
+      <MDBCardText className="typedHome">Find me here ... </MDBCardText>
 
       <MDBCol md="12" className="d-flex justify-content-center">
         <a href="!#" className="px-2 fa-lg li-ic">
@@ -84,7 +81,6 @@ const Contact = () => {
             width="100px"
           ></img>
         </a>
-
       </div>
     </div>
   );

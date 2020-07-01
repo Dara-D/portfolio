@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import Bio from "./Components/Bio";
 import Home from "./Components/Home";
 import About from "./Components/About";
 import Contact from "./Components/Contact";
@@ -15,6 +16,8 @@ const App = () => {
         <Route path="/About" component={About} />
         <Route path="/Contact" component={Contact} />
         <Route path="/Portfolio" component={Portfolio} />
+        <Route path="/Bio" component={Bio} />
+
         <Route exact path="/" component={Home} />
       </div>
     </Router>

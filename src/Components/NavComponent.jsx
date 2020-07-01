@@ -15,31 +15,22 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 
 const NavComponent = () => {
   return (
-    // <Router>
-    //   <MDBNavbar left>
-    //     <MDBNavItem>
-    //       <MDBNavLink to="/">Home</MDBNavLink>
-    //     </MDBNavItem>
+    <div className='Nav'>
 
-    //     <MDBNavItem>
-    //       <MDBNavLink to="/About">About Me</MDBNavLink>
-    //     </MDBNavItem>
+    
+      <MDBNavbar >
+          <MDBNavLink className='Navitem' to="/">Home</MDBNavLink>
 
-    //     <MDBNavItem>
-    //       <MDBNavLink to="/Bio">Bio</MDBNavLink>
-    //     </MDBNavItem>
+          <MDBNavLink className='Navitem' to="/About">About Me</MDBNavLink>
 
-    //     <MDBNavItem>
-    //       <MDBNavLink to="/Portfolio">Portfolio</MDBNavLink>
-    //     </MDBNavItem>
+          <MDBNavLink className='Navitem' to="/Bio">Bio</MDBNavLink>
 
-    //   </MDBNavbar>
-    // </Router>
+          <MDBNavLink className='Navitem' to="/Portfolio">Portfolio</MDBNavLink>
 
-    <div className="navComp">
-      <a href="/">Home</a> <a href="/About">About Me</a>{" "}
-      <a href="/Contact">Contact</a> <a href="/Portfolio">Portfolio</a>
-    </div>
+      </MDBNavbar>
+      </div>
+
+  
   );
 };
 
