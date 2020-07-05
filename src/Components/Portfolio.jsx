@@ -1,17 +1,85 @@
 import React from "react";
-import { MDBCarousel, MDBCarouselCaption, MDBCarouselInner, MDBCarouselItem, MDBView, MDBMask, MDBContainer } from "mdbreact";
+import LearnGoImg from "./LearnGoImg.png";
 
-
+import {
+  MDBBtn,
+  MDBCard,
+  MDBCardBody,
+  MDBCardImage,
+  MDBCardTitle,
+  MDBCardText,
+  MDBRow,
+  MDBCol,
+  MDBIcon,
+} from "mdbreact";
 
 const Portfolio = () => {
-  return(
- <div className='PortfolioComp'>
-  <p> heey .. Check out what I did </p>
-<a href="./home">here</a>  </div>
+  return (
+    <div className="PortfolioComp">
+      <div className='ProjectsIntro'>
+        <p> heey .. Check out my projects and what I did </p>
+      </div>
+      <div className='ProjectsCards'> 
+        <div className='ProjectsCard1'>
+          <MDBRow>
+            <MDBCol style={{ maxWidth: "50rem" }}>
+              <MDBCard>
+                <a href="https://hungry-lichterman-b823f1.netlify.app/">
+                  <MDBCardImage style={{ height: "25rem" }} src={LearnGoImg} />
+                </a>
+                <MDBCardBody className="text-center">
+                  <MDBCardTitle>LearnGo</MDBCardTitle>
+                  <MDBCardText>
+                    The idea behind this app is to help people who are going
+                    through what we already went through and try to make it
+                    easier for them.
+                  </MDBCardText>
+                  <a href="#!" className="icons-sm li-ic ml-1">
+                    <MDBIcon fab icon="linkedin-in" />
+                  </a>
+                  <a href="#!" className="icons-sm tw-ic ml-1">
+                    <MDBIcon fab icon="twitter" />
+                  </a>
+                  <a href="#!" className="icons-sm fb-ic ml-1">
+                    <MDBIcon fab icon="facebook-f" />
+                  </a>
+                </MDBCardBody>
+              </MDBCard>
+            </MDBCol>
+          </MDBRow>
+        </div>
 
-  //  <div className='projects'>
-  //  </div>
-  ) ;
+        <div className='ProjectsCard1'>
+          <MDBRow>
+            <MDBCol style={{ maxWidth: "50rem" }}>
+              <MDBCard>
+                <a href="https://hungry-lichterman-b823f1.netlify.app/">
+                  <MDBCardImage style={{ height: "25rem" }} src={LearnGoImg} />
+                </a>
+                <MDBCardBody className="text-center">
+                  <MDBCardTitle>LearnGo</MDBCardTitle>
+                  <MDBCardText>
+                    The idea behind this app is to help people who are going
+                    through what we already went through and try to make it
+                    easier for them.
+                  </MDBCardText>
+                  <a href="#!" className="icons-sm li-ic ml-1">
+                    <MDBIcon fab icon="linkedin-in" />
+                  </a>
+                  <a href="#!" className="icons-sm tw-ic ml-1">
+                    <MDBIcon fab icon="twitter" />
+                  </a>
+                  <a href="#!" className="icons-sm fb-ic ml-1">
+                    <MDBIcon fab icon="facebook-f" />
+                  </a>
+                </MDBCardBody>
+              </MDBCard>
+            </MDBCol>
+          </MDBRow>
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default Portfolio;

@@ -26,7 +26,6 @@ const AnimationHome=()=> {
           strings={[' an Entrepreneur!', ' an Interior Designer!' , 'and a Web developer!', ]}
           typeSpeed={40}
           backSpeed={30}
-          
           >
           </Typed>
           {/* <p>

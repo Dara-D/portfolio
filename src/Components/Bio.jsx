@@ -16,7 +16,7 @@ export default class Bio extends Component {
           ]}
           typeSpeed={40}
           backSpeed={30}
-          backDelay={10}
+          backDelay={50}
         ></Typed>{" "}
       </div>
     );

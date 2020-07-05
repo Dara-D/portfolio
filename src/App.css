@@ -14,7 +14,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  /* font-size: calc(10px + 2vmin); */
   color: white;
 }
 .ContactComp {
@@ -96,4 +96,19 @@
   background-color: #1d1f24;
   padding-top: 25px;
   padding-bottom: 30px;
+}
+
+
+.ProjectsCard1{
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.ProjectsCard2{
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.ProjectsIntro{
+  font-size: 2rem;
 }
