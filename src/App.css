@@ -107,8 +107,14 @@
 .ProjectsCard2{
   padding-top: 30px;
   padding-bottom: 50px;
+
 }
 
 .ProjectsIntro{
   font-size: 2rem;
+}
+
+.proImg{
+  border-width: 1px;
+  border-color: #f87373;
 }

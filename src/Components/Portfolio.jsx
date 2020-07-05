@@ -1,5 +1,7 @@
 import React from "react";
 import LearnGoImg from "./LearnGoImg.png";
+import PorfolioImg from "./PorfolioImg.PNG";
+
 
 import {
   MDBBtn,
@@ -25,13 +27,13 @@ const Portfolio = () => {
             <MDBCol style={{ maxWidth: "50rem" }}>
               <MDBCard>
                 <a href="https://hungry-lichterman-b823f1.netlify.app/">
-                  <MDBCardImage style={{ height: "25rem" }} src={LearnGoImg} />
+                  <MDBCardImage className="proImg" style={{ height: "25rem"}} src={LearnGoImg} />
                 </a>
                 <MDBCardBody className="text-center">
                   <MDBCardTitle>LearnGo</MDBCardTitle>
                   <MDBCardText>
-                    The idea behind this app is to help people who are going
-                    through what we already went through and try to make it
+                    An app  to help student who are going
+                    through Learn.Co curriculum, that we went through and try to make it
                     easier for them.
                   </MDBCardText>
                   <a href="#!" className="icons-sm li-ic ml-1">
@@ -53,11 +55,11 @@ const Portfolio = () => {
           <MDBRow>
             <MDBCol style={{ maxWidth: "50rem" }}>
               <MDBCard>
-                <a href="https://hungry-lichterman-b823f1.netlify.app/">
-                  <MDBCardImage style={{ height: "25rem" }} src={LearnGoImg} />
+                <a href="/">
+                  <MDBCardImage style={{ height: "25rem" }} src={PorfolioImg} />
                 </a>
                 <MDBCardBody className="text-center">
-                  <MDBCardTitle>LearnGo</MDBCardTitle>
+                  <MDBCardTitle>My Porfolio</MDBCardTitle>
                   <MDBCardText>
                     The idea behind this app is to help people who are going
                     through what we already went through and try to make it
