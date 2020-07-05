@@ -26,7 +26,6 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  z-index: -1;
 }
 
 .aboutComp {
@@ -40,7 +39,7 @@
   color: white;
   z-index: -1;
 }
-.BioComp{
+.BioComp {
   background-color: #1d1f24;
   min-height: 90vh;
   display: flex;
@@ -80,7 +79,7 @@
   font-size: 2rem;
 }
 .typedHome {
-  color: #f87373;
+  color: white;
 }
 
 .Navitem {
@@ -96,25 +95,25 @@
   background-color: #1d1f24;
   padding-top: 25px;
   padding-bottom: 30px;
+  /* box-shadow: 2px 2px 2px 1px green;
+  z-index: +1; */
 }
 
-
-.ProjectsCard1{
+.ProjectsCard {
   padding-top: 30px;
   padding-bottom: 50px;
 }
 
-.ProjectsCard2{
-  padding-top: 30px;
-  padding-bottom: 50px;
-
-}
-
-.ProjectsIntro{
+.ProjectsIntro {
   font-size: 2rem;
 }
 
-.proImg{
+.proImg {
   border-width: 1px;
   border-color: #f87373;
+}
+
+.projDis {
+  padding-right: 80px;
+  padding-left: 80px;
 }
