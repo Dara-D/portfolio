@@ -28,6 +28,7 @@ const Projects = () => {
             <MDBCol style={{ maxWidth: "50rem" }}>
               <MDBCard>
               <MDBCardTitle>LearnGo</MDBCardTitle>
+              <p>Technologies Used: <b>React, MDBootstrab, JavaScript, SCC</b></p>
 
                 <a href="https://hungry-lichterman-b823f1.netlify.app/">
                   <MDBCardImage className="proImg" style={{ height: "25rem"}} src={LearnGoImg} />
@@ -58,6 +59,8 @@ const Projects = () => {
             <MDBCol style={{ maxWidth: "50rem" }}>
               <MDBCard>
               <MDBCardTitle>Netflix & Chill</MDBCardTitle>
+              <p>Technologies Used: <b>JavaScript, Bootstrab, SCC</b></p>
+
 
                 <a href="/About">
                   <MDBCardImage style={{ height: "25rem" }} src={MovieImg} />
@@ -86,6 +89,8 @@ const Projects = () => {
             <MDBCol style={{ maxWidth: "50rem" }}>
               <MDBCard>
               <MDBCardTitle>My Porfolio</MDBCardTitle>
+              <p>Technologies Used: <b>React, MDBootstrab, JavaScript, SCC</b></p>
+
 
                 <a href="/">
                   <MDBCardImage style={{ height: "25rem" }} src={PorfolioImg} />

@@ -1,4 +1,6 @@
 import React from "react";
+import cv from "./CV.pdf";
+
 import {
   MDBBtn,
   MDBCard,
@@ -33,17 +35,21 @@ const Contact = () => {
 
       <MDBCardText className="typedHome">Find me here ... </MDBCardText>
 
-      <MDBCol md="12" className="d-flex justify-content-center">
-        <a href="!#" className="px-2 fa-lg li-ic">
+      <a href={cv} target="_blank">
+        <MDBBtn color="unique">View my CV</MDBBtn>
+      </a>
+
+      <MDBCol md="12" className="d-flex justify-content-center" target="_blank">
+        <a href="!#" className="px-2 fa-lg li-ic" target="_blank">
           <MDBIcon fab icon="linkedin-in"></MDBIcon>
         </a>
 
-        <a href="!#" className="px-2 fa-lg fb-ic">
+        <a href="!#" className="px-2 fa-lg fb-ic" target="_blank">
           <MDBIcon fab icon="facebook-f"></MDBIcon>
         </a>
       </MDBCol>
       <div>
-        <a href="https://github.com/Dara-D" className="px-2 fa-lg fb-ic">
+        <a href="https://github.com/Dara-D" className="px-2 fa-lg fb-ic" target="_blank"> 
           <img
             hover
             overlay="white-slight"
@@ -56,7 +62,7 @@ const Contact = () => {
 
         <a
           href="https://www.linkedin.com/in/dara-dandashi/"
-          className="px-2 fa-lg fb-ic"
+          className="px-2 fa-lg fb-ic" target="_blank"
         >
           <img
             hover
@@ -70,7 +76,7 @@ const Contact = () => {
 
         <a
           href="https://www.instagram.com/dara_dandashi/"
-          className="px-2 fa-lg fb-ic"
+          className="px-2 fa-lg fb-ic" target="_blank"
         >
           <img
             hover
