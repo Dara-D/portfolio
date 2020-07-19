@@ -1,5 +1,4 @@
 import React from 'react';
-import startBtn from './startBtn.svg'
 import pc from './pc.svg'
 import '../App.css';
 import Typed from 'react-typed';

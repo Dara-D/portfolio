@@ -81,7 +81,12 @@
   font-size: 2rem;
 }
 .typedHome {
-  color: white;
+  color: #f87373;
+}
+
+span{
+  color: #f87373;
+font-weight: bold;
 }
 
 .Navitem {

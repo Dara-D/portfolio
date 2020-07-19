@@ -3,12 +3,7 @@ import cv from "./CV.pdf";
 
 import {
   MDBBtn,
-  MDBCard,
-  MDBCardBody,
-  MDBCardImage,
-  MDBCardTitle,
   MDBCardText,
-  MDBRow,
   MDBCol,
   MDBIcon,
 } from "mdbreact";
