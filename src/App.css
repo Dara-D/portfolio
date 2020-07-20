@@ -124,3 +124,26 @@ font-weight: bold;
   padding-right: 80px;
   padding-left: 80px;
 }
+
+
+button{
+  background-color: #f87373;
+  color: #1d1f24;
+  cursor: pointer;
+  width: 10rem;
+  height: 3rem;
+  font-weight: 500;
+  font-size: 1.5rem;
+  border-radius: 1.5rem;
+  border-style: hidden;
+}
+
+.midPart{
+
+  margin-bottom: 30px;
+  margin-bottom: 30px;
+}
+
+.myImg{
+  border-radius: 50px;
+}

@@ -1,86 +1,40 @@
 import React from "react";
 import cv from "./CV.pdf";
+import github from "./github.svg";
+import facebook from "./facebook.svg";
+import linkedin from "./linkedin.svg";
 
-import {
-  MDBBtn,
-  MDBCardText,
-  MDBCol,
-  MDBIcon,
-} from "mdbreact";
+import { MDBBtn, MDBCardText } from "mdbreact";
 
 const Contact = () => {
   return (
     <div className="ContactComp">
-      <img
+      <img className="myImg"
         hover
         overlay="white-slight"
-        className="card-img-top"
-        src="https://scontent.fist6-1.fna.fbcdn.net/v/t1.0-9/s960x960/59627672_10157372621791941_8782890533258264576_o.jpg?_nc_cat=110&_nc_sid=85a577&_nc_ohc=VH8BOYv6DV0AX9UcbtQ&_nc_ht=scontent.fist6-1.fna&_nc_tp=7&oh=0538511685e027a346c576e73c3e9895&oe=5F0C235A"
+        src="https://scontent.fist7-1.fna.fbcdn.net/v/t1.0-9/s960x960/59627672_10157372621791941_8782890533258264576_o.jpg?_nc_cat=110&_nc_sid=85a577&_nc_ohc=N-ajWBjhldAAX9fI-NB&_nc_ht=scontent.fist7-1.fna&_nc_tp=7&oh=4fdace64c91d87063c683e5da615da8d&oe=5F3B995A"
         alt="Dara"
         width="100px"
       ></img>
 
-      {/* <h5 className="pink-text">Contributor</h5> */}
+      <div className="midPart">
+        <h2 className="text">Find me here ... </h2>
 
-      {/* <p>
-        Dara Aldandashi
-      </p> */}
-
-      {/* <p className="font-weight-bold blue-text">Find me here</p> */}
-
-      <MDBCardText className="typedHome">Find me here ... </MDBCardText>
-
-      <a href={cv} target="_blank">
-        <MDBBtn color="unique">View my CV</MDBBtn>
-      </a>
-
-      <MDBCol md="12" className="d-flex justify-content-center" target="_blank">
-        <a href="!#" className="px-2 fa-lg li-ic" target="_blank">
-          <MDBIcon fab icon="linkedin-in"></MDBIcon>
+        <a href={cv} target="_blank">
+          <button color="unique">View my CV</button>
         </a>
-
-        <a href="!#" className="px-2 fa-lg fb-ic" target="_blank">
-          <MDBIcon fab icon="facebook-f"></MDBIcon>
-        </a>
-      </MDBCol>
+      </div>
       <div>
-        <a href="https://github.com/Dara-D" className="px-2 fa-lg fb-ic" target="_blank"> 
-          <img
-            hover
-            overlay="white-slight"
-            className="card-img-top"
-            src="https://www.shareicon.net/data/2048x2048/2016/06/20/606964_github_4096x4096.png"
-            alt="github"
-            width="100px"
-          ></img>
+        <a href="https://github.com/Dara-D" target="_blank">
+          <img src={github} alt="github" width="100px"></img>
         </a>
 
-        <a
-          href="https://www.linkedin.com/in/dara-dandashi/"
-          className="px-2 fa-lg fb-ic" target="_blank"
-        >
-          <img
-            hover
-            overlay="white-slight"
-            className="card-img-top"
-            src="https://img.pngio.com/linkedin-black-icon-png-image-free-download-searchpngcom-linkedin-black-png-1000_1000.png"
-            alt="LinkedIn"
-            width="100px"
-          ></img>
+        <a href="https://www.linkedin.com/in/dara-dandashi/" target="_blank">
+          <img src={facebook} alt="Facebook" width="100px"></img>
         </a>
 
-        <a
-          href="https://www.instagram.com/dara_dandashi/"
-          className="px-2 fa-lg fb-ic" target="_blank"
-        >
-          <img
-            hover
-            overlay="white-slight"
-            className="card-img-top"
-            src="https://www.pngkey.com/png/full/47-475066_graphic-black-and-white-instagram-to-pin-on.png"
-            alt="LinkedIn"
-            width="100px"
-          ></img>
+        <a href="https://www.instagram.com/dara_dandashi/" target="_blank">
+          <img src={linkedin} alt="LinkedIn" width="100px"></img>
         </a>
       </div>
     </div>
