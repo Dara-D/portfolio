@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.1221e3a1.chunk.css",
+    "main.js": "/portfolio/static/js/main.82d14473.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.82d14473.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.6a088b17.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.6a088b17.js.map",
+    "static/js/2.14c5a25f.chunk.js": "/portfolio/static/js/2.14c5a25f.chunk.js",
+    "static/js/2.14c5a25f.chunk.js.map": "/portfolio/static/js/2.14c5a25f.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.80c7f764136e6fbcaddd8d607937d3e0.js": "/portfolio/precache-manifest.80c7f764136e6fbcaddd8d607937d3e0.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.1221e3a1.chunk.css.map": "/portfolio/static/css/main.1221e3a1.chunk.css.map",
+    "static/js/2.14c5a25f.chunk.js.LICENSE.txt": "/portfolio/static/js/2.14c5a25f.chunk.js.LICENSE.txt",
+    "static/media/CV.pdf": "/portfolio/static/media/CV.d751d3c8.pdf",
+    "static/media/LearnGoImg.png": "/portfolio/static/media/LearnGoImg.6db0e971.png",
+    "static/media/MovieImg.PNG": "/portfolio/static/media/MovieImg.b3dae283.PNG",
+    "static/media/PorfolioImg.PNG": "/portfolio/static/media/PorfolioImg.2c434759.PNG",
+    "static/media/facebook.svg": "/portfolio/static/media/facebook.62d8b6ef.svg",
+    "static/media/github.svg": "/portfolio/static/media/github.ec5bc1b3.svg",
+    "static/media/linkedin.svg": "/portfolio/static/media/linkedin.d9049f46.svg",
+    "static/media/pc.svg": "/portfolio/static/media/pc.5683a0f1.svg",
+    "static/media/women.svg": "/portfolio/static/media/women.7a98c111.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6a088b17.js",
+    "static/js/2.14c5a25f.chunk.js",
+    "static/css/main.1221e3a1.chunk.css",
+    "static/js/main.82d14473.chunk.js"
+  ]
+}
