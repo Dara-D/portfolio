@@ -1,7 +1,6 @@
 .App {
   text-align: center;
   background-color: #1d1f24;
-
 }
 
 .App-startBtn {
@@ -10,17 +9,14 @@
 }
 
 .PortfolioComp {
-  /* background-color: #1d1f24; */
   min-height: 90vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* font-size: calc(10px + 2vmin); */
   color: white;
 }
 .ContactComp {
-  /* background-color: #1d1f24; */
   min-height: 90vh;
   display: flex;
   flex-direction: column;
@@ -84,9 +80,9 @@
   color: #f87373;
 }
 
-span{
+span {
   color: #f87373;
-font-weight: bold;
+  font-weight: bold;
 }
 
 .Navitem {
@@ -102,8 +98,6 @@ font-weight: bold;
   background-color: #1d1f24;
   padding-top: 25px;
   padding-bottom: 30px;
-  /* box-shadow: 2px 2px 2px 1px green;
-  z-index: +1; */
 }
 
 .ProjectsCard {
@@ -125,8 +119,7 @@ font-weight: bold;
   padding-left: 80px;
 }
 
-
-button{
+button {
   background-color: #f87373;
   color: #1d1f24;
   cursor: pointer;
@@ -138,12 +131,15 @@ button{
   border-style: hidden;
 }
 
-.midPart{
-
+.midPart {
   margin-bottom: 30px;
   margin-bottom: 30px;
 }
 
-.myImg{
+.myImg {
   border-radius: 50px;
 }
+/* 
+img .socialMedia{
+padding: 40px;
+} */

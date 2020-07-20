@@ -4,7 +4,7 @@ import Typed from "react-typed";
 export default class Bio extends Component {
   render() {
     return (
-      <div className='BioComp'>
+      <div className="BioComp">
         <p className="PHome">Look around and find what you seek.</p>
         Because I am ... {"  "}
         <Typed
